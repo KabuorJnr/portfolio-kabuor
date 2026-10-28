@@ -1,0 +1,19 @@
+{
+  "name": "portfolio-kabuor",
+  "version": "1.0.0",
+  "description": "Rooney Odhiambo · 3D Gallery & Full-Stack Systems Portfolio",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve -s . -l ${PORT:-3000}",
+    "serve": "npx serve ."
+  },
+  "keywords": [
+    "portfolio",
+    "threejs",
+    "webgl",
+    "govtech",
+    "data-engineering"
+  ],
+  "author": "Rooney Odhiambo",
+  "license": "MIT"
+}
