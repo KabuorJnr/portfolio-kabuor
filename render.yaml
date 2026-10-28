@@ -1,0 +1,12 @@
+services:
+  # Option 1: Static Site (Recommended for Render - 100% Free, No cold starts)
+  - type: web
+    name: rooney-portfolio
+    runtime: static
+    buildCommand: ""
+    staticPublishPath: "."
+    pullRequestPreviewsEnabled: true
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
